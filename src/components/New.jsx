@@ -1,8 +1,9 @@
 import { useState, useEffect } from "react";
 import { Configuration, OpenAIApi } from "openai";
 import assets from "../assets/assets";
-
+// apiKey: import.meta.env.VITE_OPENAI_API_KEY,
 export default function Test() {
+	console.log("22");
 	const [translations, setTranslations] = useState([]);
 	const configuration = new Configuration({
 		// apiKey: "sk-yZMSe5AsEOYFSqEBvzlW3BlbkFJostye9rCrNHKZs1w1Lcq",

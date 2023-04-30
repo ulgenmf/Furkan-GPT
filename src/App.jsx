@@ -2,6 +2,7 @@ import Test from "./components/New";
 import CustomDiv from "./components/custom-components/CustomDiv";
 import HeadLines from "./components/custom-components/HeadLines";
 import PlayGround from "./components/custom-components/PlayGround";
+import { useState } from "react";
 function App() {
 	const infos = {
 		chatBot: {
