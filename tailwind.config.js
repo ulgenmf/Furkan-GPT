@@ -16,6 +16,10 @@ export default {
 			},
 			colors: {
 				pGreen: "#35F160",
+				ai: "#444654",
+				mesage: "#343541",
+				sideBar: "#202123",
+				messageBox: "#4E5161",
 			},
 		},
 	},

@@ -5,9 +5,7 @@ import assets from "../assets/assets";
 export default function Test() {
 	console.log("22");
 	const [translations, setTranslations] = useState([]);
-	const configuration = new Configuration({
-		// apiKey: "sk-yZMSe5AsEOYFSqEBvzlW3BlbkFJostye9rCrNHKZs1w1Lcq",
-	});
+	const configuration = new Configuration({});
 	const openai = new OpenAIApi(configuration);
 
 	useEffect(() => {
@@ -27,5 +25,5 @@ export default function Test() {
 		console.log(response);
 	}, []);
 
-	return <div>x</div>;
+	return <div>lorem*10</div>;
 }

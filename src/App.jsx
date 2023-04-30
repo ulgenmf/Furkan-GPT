@@ -16,9 +16,9 @@ function App() {
 	};
 
 	return (
-		<div className="flex  flex-col px-3 items-center justify-center bg-black h-screen w-screen">
+		<div className="flex h-screen w-full  items-center justify-center bg-black  ">
 			{/* <Test /> */}
-			{/* <HeadLines /> */}
+			<HeadLines />
 			{/* <div className="flex gap-52  mt-52 justify-between h-full  w-full">
 				<CustomDiv
 					imgSrc={
@@ -26,14 +26,8 @@ function App() {
 					}
 					writing={infos.chatBot.writings}
 				/>
-				<CustomDiv
-					imgSrc={
-						"https://cdn.pixabay.com/photo/2017/03/23/09/34/robot-2167836_960_720.jpg"
-					}
-					writing={infos.Setcont.writings}
-				/>
 			</div> */}
-			<div className="flex gap-52  mt-52 justify-between h-full  w-full">
+			<div className="flex   justify-between h-full  w-full">
 				<PlayGround />
 			</div>
 		</div>

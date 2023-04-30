@@ -1,7 +1,36 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Monoton&family=Open+Sans:wght@300&display=swap");
 
+* {
+	font-family: "Open Sans", sans-serif;
+}
 .app {
 	font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+::-webkit-scrollbar {
+	width: 2px;
+	height: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+	background: #746e6e;
+	border-radius: 1px;
+	margin-right: 2px;
+}
+
+.borders {
+	border: none;
+	outline: 1px solid transparent;
+	box-shadow: 0 0 0 0.5px white;
+	border-radius: 6px;
+}
+::-webkit-scrollbar-track {
+	background: #ffffff;
+}
+.scroll-smooth {
+	overflow: auto;
+	scrollbar-width: thin;
+	scrollbar-color: #aaa #f5f5f5;
 }
