@@ -13,6 +13,12 @@ export default function HeadLines() {
 	];
 
 	return (
-		<div className="h-full bg-sideBar w-2/12 sm-max:hidden  flex flex-col  text-white"></div>
+		<div className="h-full bg-sideBar w-2/12 sm-max:hidden  flex flex-col  text-white">
+			<p className="text-center my-auto border-t-2 border-b-2  border-gray-400 py-1">
+				"I am aware that my beautiful chat-bot takes some time to answer. Since this
+				is a paid service, I am trying to cut costs and compromise on speed. I
+				apologize for any inconvenience caused
+			</p>
+		</div>
 	);
 }
