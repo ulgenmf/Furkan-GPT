@@ -95,7 +95,7 @@ function PlayGround() {
 					onClick={deleteHistory}
 					className=" text-center text-base   self-end absolute mt-3 mr-2   items-center gap-2"
 				>
-					<div className=" gap-2 flex items-center">
+					<div className="opacity-40 bg-slate-100 hover:opacity-100 active:opacity-100  duration-200 bg-opacity-20 p-2 rounded-xl gap-2 flex items-center">
 						<CiCircleRemove size={25} /> Clear chat history
 					</div>
 				</button>
