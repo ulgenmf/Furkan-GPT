@@ -6,9 +6,7 @@
 * {
 	font-family: "Open Sans", sans-serif;
 }
-.app {
-	font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-}
+
 ::-webkit-scrollbar {
 	width: 2px;
 	height: 10px;

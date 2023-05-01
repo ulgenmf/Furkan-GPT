@@ -22,7 +22,7 @@ export default function HeadLines() {
 			</div>
 			<div className="text-gray-400 mt-3 ml-2 text-xs">Today</div>
 
-			<div className="mx-auto w-11/12 flex items-center justify-center flex-col gap-20 mt-6 p-2 text-center ">
+			<div className="mx-auto w-11/12 flex items-center justify-center flex-col gap-5 mt-6 p-2 text-center ">
 				{infos.map((info) => (
 					<div className="flex items-center gap-5 w-full  p-4 cursor-not-allowed hover:rounded-xl duration-150  hover:bg-gray-700  justify-center">
 						<BsChatLeft size={17} className="w-12" />

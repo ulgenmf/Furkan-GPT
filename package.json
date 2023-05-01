@@ -12,6 +12,7 @@
 		"@emotion/react": "^11.10.8",
 		"@emotion/styled": "^11.10.8",
 		"@mui/material": "^5.12.2",
+		"@vercel/analytics": "^1.0.0",
 		"@vitalets/google-translate-api": "^9.1.0",
 		"axios": "^1.4.0",
 		"clsx": "^1.2.1",

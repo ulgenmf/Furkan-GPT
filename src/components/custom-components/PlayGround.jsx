@@ -6,6 +6,7 @@ import { FaRobot } from "react-icons/fa";
 import { BsFillPersonFill } from "react-icons/bs";
 import { BeatLoader } from "react-spinners";
 import { AiOutlineArrowDown } from "react-icons/ai";
+import { toast } from "react-toastify";
 function PlayGround() {
 	const [write, setWrite] = useState("");
 	const [isWaiting, setIsWaiting] = useState(false);
@@ -17,8 +18,10 @@ function PlayGround() {
 			AI: [],
 		},
 	]);
+
+	const myApiKey = import.meta.env.VITE_OPENAI_API_KEY;
 	const configuration = new Configuration({
-		apiKey: import.meta.env.VITE_OPENAI_API_KEY,
+		apiKey: myApiKey,
 	});
 	const openai = new OpenAIApi(configuration);
 	// https://platform.openai.com/docs/api-reference/chat/create
@@ -48,6 +51,7 @@ function PlayGround() {
 			setWrite("");
 		} catch (error) {
 			console.error(error);
+			alert("Something went wrong with API call, please try again later");
 		}
 	};
 	{
@@ -84,7 +88,7 @@ function PlayGround() {
 						</div>
 					))
 				) : (
-					<div className="flex flex-col gap-2 justify-center text-center mt-52 text-5xl items-center">
+					<div className="flex flex-col gap-2 sm-max:text-3xl sm-max:mt-12 justify-center text-center mt-52 text-4xl items-center">
 						<p>Hey there </p>
 						<p>Please type a prompt to get started</p>
 						<p>and</p>
