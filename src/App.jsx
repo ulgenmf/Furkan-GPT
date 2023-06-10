@@ -17,7 +17,7 @@ function App() {
 
 	return (
 		
-		<div className="h-2/3  text-white  text-7xl m-auto w-full"> UHM PLEASE LEAVE ?! </p>
+		<div className="h-2/3  text-white  text-7xl m-auto w-full"> UHM PLEASE LEAVE ?! </div>
 		//<div className="flex h-screen w-full  items-center justify-center bg-black  ">
 			{/* <Test /> */}
 			//<HeadLines />
@@ -35,7 +35,7 @@ function App() {
 			//<div className="flex   justify-between h-full  w-full">
 				//<PlayGround />
 			//</div>
-		</div>
+		
 	);
 }
 
