@@ -21,7 +21,7 @@ function App() {
 			//<HeadLines />
 
 
-<p classname="h-2/3 w-full"> UHM PLEASE LEAVE ?! </p>
+<p className="h-2/3 w-full"> UHM PLEASE LEAVE ?! </p>
 			{/* <div className="flex gap-52  mt-52 justify-between h-full  w-full">
 				<CustomDiv
 					imgSrc={
