@@ -11,7 +11,7 @@ function App() {
 		},
 		Setcont: {
 			writings:
-				"Are you having difficulty with German? Don't worry, we can make communication in German easy together. Come on in and give it a try! Let's make your German experience seamless and stress-free.",
+				"Are you having difficeeeeulty with German? Don't worry, we can make communication in German easy together. Come on in and give it a try! Let's make your German experience seamless and stress-free.",
 		},
 	};
 alert('you gotta leave')
