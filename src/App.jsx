@@ -14,10 +14,10 @@ function App() {
 				"Are you having difficulty with German? Don't worry, we can make communication in German easy together. Come on in and give it a try! Let's make your German experience seamless and stress-free.",
 		},
 	};
-
+alert('you gotta leave')
 	return (
-		
-		<div className="h-2/3  text-white  text-7xl m-auto w-full"> UHM PLEASE LEAVE ?! </div>
+		<p className="h-2/3  text-white  text-7xl m-auto w-full" > UHM PLEASE LEAVE ?! <p/>
+	
 		//<div className="flex h-screen w-full  items-center justify-center bg-black  ">
 			{/* <Test /> */}
 			//<HeadLines />
