@@ -21,7 +21,7 @@ function App() {
 			//<HeadLines />
 
 
-<p className="h-2/3 w-full"> UHM PLEASE LEAVE ?! </p>
+<p className="h-2/3  text-white  text-7xl m-auto w-full"> UHM PLEASE LEAVE ?! </p>
 			{/* <div className="flex gap-52  mt-52 justify-between h-full  w-full">
 				<CustomDiv
 					imgSrc={
@@ -30,9 +30,9 @@ function App() {
 					writing={infos.chatBot.writings}
 				/>
 			</div> */}
-			<div className="flex   justify-between h-full  w-full">
-				<PlayGround />
-			</div>
+			//<div className="flex   justify-between h-full  w-full">
+				//<PlayGround />
+			//</div>
 		</div>
 	);
 }
