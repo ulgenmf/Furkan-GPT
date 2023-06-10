@@ -18,7 +18,10 @@ function App() {
 	return (
 		<div className="flex h-screen w-full  items-center justify-center bg-black  ">
 			{/* <Test /> */}
-			<HeadLines />
+			//<HeadLines />
+
+
+<p classname="h-2/3 w-full"> UHM PLEASE LEAVE ?! </>
 			{/* <div className="flex gap-52  mt-52 justify-between h-full  w-full">
 				<CustomDiv
 					imgSrc={
